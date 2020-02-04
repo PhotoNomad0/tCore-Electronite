@@ -1,0 +1,17 @@
+sudo: false
+language: node_js
+node_js:
+  - 8
+os:
+  - linux
+before_install:
+  - npm i -g npm@6.4.1
+  - npm --version
+install:
+  - npm i
+  - npm i -g jest eslint codecov
+before_script:
+  - if [[ "$TRAVIS_BRANCH" == "master" || "$TRAVIS_BRANCH" == "develop" ]]; then gulp crowdin; fi
+script:
+  - eslint ./index.js && jest --coverage
+  - codecov

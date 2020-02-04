@@ -1,0 +1,20 @@
+enabled,tool,type,groupId,groupName,occurrence,quote,gatewayLanguageCode,gatewayLanguageQuote,occurrenceNote,bookId,chapter,verse,username,date,time
+1,translationWords,Key Terms,apostle,"apostle, apostleship",1,ἀπόστολος,en,an apostle,N/A,tit,1,1,tc01,11/14/2017,16:56:06
+,translationWords,Key Terms,apostle,"apostle, apostleship",1,ἀπόστολος,en,an apostle,N/A,tit,1,1,tc01,11/14/2017,17:02:48
+1,translationWords,Key Terms,apostle,"apostle, apostleship",1,ἀπόστολος,en,an apostle,N/A,tit,1,1,tc01,11/14/2017,18:21:39
+,translationWords,Key Terms,apostle,"apostle, apostleship",1,ἀπόστολος,en,an apostle,N/A,tit,1,1,tc01,11/14/2017,18:35:36
+1,translationWords,Key Terms,apostle,"apostle, apostleship",1,ἀπόστολος,en,an apostle,N/A,tit,1,1,tc01,11/14/2017,21:24:11
+1,translationWords,Key Terms,circumcise,"circumcise, circumcised, circumcision, uncircumcised, uncircumcision",1,περιτομῆς,en,circumcision,N/A,tit,1,10,tc01,11/14/2017,17:05:29
+1,translationWords,Key Terms,command,"command, commanded, commandment",1,ἐντολαῖς,en,to the commands,N/A,tit,1,14,tc01,11/14/2017,17:05:57
+1,translationWords,Key Terms,conscience,conscience,1,συνείδησις,en,consciences,N/A,tit,1,15,tc01,11/14/2017,17:06:15
+1,translationWords,Key Terms,command,"command, commanded, commandment",1,ἐπιταγὴν,en,the command,N/A,tit,1,3,tc01,11/14/2017,17:05:47
+1,translationWords,Key Terms,christ,"Christ, Messiah",1,"Christ, Messiah",en,N/A,N/A,tit,1,4,tc01,11/14/2017,17:05:20
+1,translationWords,Key Terms,children,"children, child",1,τέκνα,en,children,N/A,tit,1,6,tc01,11/14/2017,17:05:02
+1,translationWords,Key Terms,blameless,blameless,1,ἀνέγκλητον,en,blameless,N/A,tit,1,7,tc01,11/14/2017,16:58:43
+1,translationWords,Key Terms,bless,"bless, blessed, blessing",1,μακαρίαν,en,blessed,N/A,tit,2,13,tc01,11/14/2017,16:59:01
+1,translationWords,Key Terms,authority,authority,1,"authority, authorities",en,N/A,N/A,tit,2,15,tc01,11/14/2017,16:58:33
+1,translationWords,Key Terms,children,"children, child",1,"children, child",en,N/A,N/A,tit,2,4,tc01,11/14/2017,17:05:11
+1,translationWords,Key Terms,blameless,blameless,1,blameless,en,N/A,N/A,tit,2,8,tc01,11/14/2017,16:58:52
+1,translationWords,Key Terms,condemn,"condemn, condemned, condemnation",1,αὐτοκατάκριτος,en,self-condemned,N/A,tit,3,11,tc01,11/14/2017,18:23:14
+1,translationWords,Key Terms,bornagain,"born again, born of God, new birth",1,παλινγενεσίας,en,of new birth,N/A,tit,3,5,tc01,11/14/2017,16:59:11
+1,translationWords,Key Terms,clean,"clean, cleaned, cleanse, cleansed, wash, washed, unclean",1,λουτροῦ,en,the washing,N/A,tit,3,5,tc01,11/14/2017,17:05:38
