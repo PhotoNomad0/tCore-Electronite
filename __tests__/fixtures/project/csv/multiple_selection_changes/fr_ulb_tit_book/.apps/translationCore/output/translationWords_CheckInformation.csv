@@ -1,0 +1,238 @@
+priority,tool,type,groupId,groupName,occurrence,quote,gatewayLanguageCode,gatewayLanguageQuote,occurrenceNote,bookId,chapter,verse
+1,translationWords,Other,accuse,"accuse, accused, accuser, accusation",1,κατηγορίᾳ,en,accused,N/A,tit,1,6
+1,translationWords,Other,admonish,"admonish, warned, aware",1,νουθεσίαν,en,warnings,N/A,tit,3,10
+1,translationWords,Other,age,"age, aged",1,αἰῶνι,en,age,N/A,tit,2,12
+1,translationWords,Other,angry,"anger, angry",1,ὀργίλον,en,be easily angered,N/A,tit,1,7
+1,translationWords,Names,apollos,Apollos,1,Ἀπολλῶν,en,Apollos,N/A,tit,3,13
+1,translationWords,Key Terms,apostle,"apostle, apostleship",1,ἀπόστολος,en,an apostle,N/A,tit,1,1
+1,translationWords,Other,astray,"astray, go astray, went astray, lead astray, stray",1,πλανώμενοι,en,We were led astray,N/A,tit,3,3
+1,translationWords,Key Terms,authority,authority,1,ἐξουσίαις,en,and authorities,N/A,tit,3,1
+1,translationWords,Other,beast,beast,1,θηρία,en,beasts,N/A,tit,1,12
+1,translationWords,Key Terms,believe,"believe, believer, belief, unbeliever, unbelief",1,ἀπίστοις,en,unbelieving,N/A,tit,1,15
+1,translationWords,Key Terms,believe,"believe, believer, belief, unbeliever, unbelief",1,πεπιστευκότες,en,those who have believed,N/A,tit,3,8
+1,translationWords,Key Terms,blameless,blameless,1,ἀνέγκλητος,en,without blame,N/A,tit,1,6
+1,translationWords,Key Terms,blameless,blameless,1,ἀνέγκλητον,en,blameless,N/A,tit,1,7
+1,translationWords,Key Terms,blasphemy,"blasphemy, blaspheme, blasphemous",1,βλασφημῆται,en,may … be insulted,N/A,tit,2,5
+1,translationWords,Key Terms,blasphemy,"blasphemy, blaspheme, blasphemous",1,βλασφημεῖν,en,to revile,N/A,tit,3,2
+1,translationWords,Key Terms,bless,"bless, blessed, blessing",1,μακαρίαν,en,blessed,N/A,tit,2,13
+1,translationWords,Key Terms,bornagain,"born again, born of God, new birth",1,παλινγενεσίας,en,of new birth,N/A,tit,3,5
+1,translationWords,Key Terms,children,"children, child",1,τέκνα,en,children,N/A,tit,1,6
+1,translationWords,Key Terms,children,"children, child",1,"children, child",en,N/A,N/A,tit,2,4
+1,translationWords,Key Terms,christ,"Christ, Messiah",1,Χριστοῦ,en,Christ,N/A,tit,3,6
+1,translationWords,Key Terms,circumcise,"circumcise, circumcised, circumcision, uncircumcised, uncircumcision",1,περιτομῆς,en,circumcision,N/A,tit,1,10
+1,translationWords,Key Terms,clean,"clean, cleaned, cleanse, cleansed, wash, washed, unclean",1,λουτροῦ,en,the washing,N/A,tit,3,5
+1,translationWords,Key Terms,command,"command, commanded, commandment",1,ἐπιταγὴν,en,the command,N/A,tit,1,3
+1,translationWords,Key Terms,command,"command, commanded, commandment",1,ἐντολαῖς,en,to the commands,N/A,tit,1,14
+1,translationWords,Key Terms,condemn,"condemn, condemned, condemnation",1,αὐτοκατάκριτος,en,self-condemned,N/A,tit,3,11
+1,translationWords,Key Terms,confess,"confess, confession",1,ὁμολογοῦσιν,en,They profess,N/A,tit,1,16
+1,translationWords,Key Terms,conscience,conscience,1,συνείδησις,en,consciences,N/A,tit,1,15
+1,translationWords,Other,courage,"courage, courageous, encourage, encouragement, discourage, discouragement, bravest",1,παρακαλεῖν,en,to encourage others,N/A,tit,1,9
+1,translationWords,Names,crete,"Crete, Cretan",1,Κρήτῃ,en,Crete,N/A,tit,1,5
+1,translationWords,Names,crete,"Crete, Cretan",1,Κρῆτες,en,Cretans,N/A,tit,1,12
+1,translationWords,Other,deceive,"deceive, deceit, deceiver, deceitful, deception, illusions",1,φρεναπάται,en,deceivers,N/A,tit,1,10
+1,translationWords,Other,defile,"defile, defiled",1,μεμιαμμένοις,en,who are corrupt,N/A,tit,1,15
+1,translationWords,Other,defile,"defile, defiled",1,μεμίανται,en,have been corrupted,N/A,tit,1,15
+1,translationWords,Other,detestable,"detest, detested, detestable",1,βδελυκτοὶ,en,detestable,N/A,tit,1,16
+1,translationWords,Key Terms,discipline,"discipline, self-discipline",1,ἐγκρατῆ,en,and self-controlled,N/A,tit,1,8
+1,translationWords,Key Terms,discipline,"discipline, self-discipline",1,παιδεύουσα,en,It trains,N/A,tit,2,12
+1,translationWords,Other,disobey,"disobey, disobeyed, disobedience, rebellious",1,ἀπειθεῖς,en,disobedient,N/A,tit,1,16
+1,translationWords,Other,disobey,"disobey, disobeyed, disobedience, rebellious",1,ἀπειθεῖς,en,and disobedient,N/A,tit,3,3
+1,translationWords,Other,doctrine,"doctrine, teaching, beliefs, instructions, knowledge",1,διδασκαλίᾳ,en,teaching,N/A,tit,1,9
+1,translationWords,Other,doctrine,"doctrine, teaching, beliefs, instructions, knowledge",1,διδασκαλίᾳ,en,instruction,N/A,tit,2,1
+1,translationWords,Other,doctrine,"doctrine, teaching, beliefs, instructions, knowledge",1,διδασκαλίᾳ,en,teaching,N/A,tit,2,7
+1,translationWords,Other,doctrine,"doctrine, teaching, beliefs, instructions, knowledge",1,διδασκαλίαν,en,teaching,N/A,tit,2,10
+1,translationWords,Other,elder,"elder, older",1,πρεσβυτέρους,en,elders,N/A,tit,1,5
+1,translationWords,Other,elder,"elder, older",1,πρεσβύτας,en,older men,N/A,tit,2,2
+1,translationWords,Key Terms,elect,"chosen, choose, chosen people, Chosen One, elect",1,ἐκλεκτῶν,en,chosen people,N/A,tit,1,1
+1,translationWords,Other,enslave,"enslave, enslaved, bond, bondage, bound",1,δεδουλωμένας,en,being slaves,N/A,tit,2,3
+1,translationWords,Other,enslave,"enslave, enslaved, bond, bondage, bound",1,δουλεύοντες,en,and enslaved,N/A,tit,3,3
+1,translationWords,Other,envy,"envy, covet",1,φθόνῳ,en,envy,N/A,tit,3,3
+1,translationWords,Key Terms,eternity,"eternity, everlasting, eternal, forever",1,αἰωνίου,en,eternal,N/A,tit,3,7
+1,translationWords,Key Terms,eternity,"eternity, everlasting, eternal, forever",1,αἰωνίων,en,all the ages,N/A,tit,1,2
+1,translationWords,Key Terms,evil,"evil, wicked, wickedness, wickedly",1,κακίᾳ,en,evil,N/A,tit,3,3
+1,translationWords,Key Terms,evil,"evil, wicked, wickedness, wickedly",1,φαῦλον,en,bad,N/A,tit,2,8
+1,translationWords,Key Terms,exhort,"exhort, exhortation",1,παρακάλει,en,encourage,N/A,tit,2,6
+1,translationWords,Key Terms,exhort,"exhort, exhortation",1,παρακάλει,en,encourage people to do them,N/A,tit,2,15
+1,translationWords,Key Terms,faith,faith,1,πίστει,en,faith,N/A,tit,3,15
+1,translationWords,Key Terms,faith,faith,1,πίστιν,en,faith,N/A,tit,1,4
+1,translationWords,Key Terms,faith,faith,1,πίστει,en,faith,N/A,tit,1,13
+1,translationWords,Key Terms,faith,faith,1,πίστει,en,in faith,N/A,tit,2,2
+1,translationWords,Key Terms,faith,faith,1,πίστιν,en,faith,N/A,tit,2,10
+1,translationWords,Key Terms,faithful,"faithful, faithfulness, unfaithful, unfaithfulness",1,πιστὸς,en,is trustworthy,N/A,tit,3,8
+1,translationWords,Key Terms,faithful,"faithful, faithfulness, unfaithful, unfaithfulness",1,πιστοῦ,en,trustworthy,N/A,tit,1,9
+1,translationWords,Key Terms,foolish,"fool, foolish, folly",1,μωρὰς,en,foolish,N/A,tit,3,9
+1,translationWords,Other,fruit,"fruit, fruitful, unfruitful",1,ἄκαρποι,en,unfruitful,N/A,tit,3,14
+1,translationWords,Key Terms,glory,"glory, glorious, glorify, glorified",1,δόξης,en,glory,N/A,tit,2,13
+1,translationWords,Key Terms,god,God,2,Θεοῦ,en,of God’s,N/A,tit,1,1
+1,translationWords,Key Terms,god,God,1,God,en,N/A,N/A,tit,1,2
+1,translationWords,Key Terms,god,God,1,Θεὸς,en,God,N/A,tit,1,2
+1,translationWords,Key Terms,god,God,1,Θεοῦ,en,of God,N/A,tit,1,3
+1,translationWords,Key Terms,god,God,1,Θεοῦ,en,God,N/A,tit,1,4
+1,translationWords,Key Terms,god,God,1,Θεοῦ,en,God’s,N/A,tit,1,7
+1,translationWords,Key Terms,god,God,1,Θεὸν,en,God,N/A,tit,1,16
+1,translationWords,Key Terms,god,God,1,Θεοῦ,en,God’s,N/A,tit,2,5
+1,translationWords,Key Terms,god,God,1,Θεοῦ,en,God,N/A,tit,2,10
+1,translationWords,Key Terms,god,God,1,Θεοῦ,en,of God,N/A,tit,2,11
+1,translationWords,Key Terms,god,God,1,Θεοῦ,en,God,N/A,tit,2,13
+1,translationWords,Key Terms,god,God,1,Θεοῦ,en,God,N/A,tit,3,4
+1,translationWords,Key Terms,god,God,1,Θεῷ,en,in God,N/A,tit,3,8
+1,translationWords,Key Terms,godly,"godly, godliness, ungodly, godless, ungodliness, godlessness",1,εὐσέβειαν,en,godliness,N/A,tit,1,1
+1,translationWords,Key Terms,godly,"godly, godliness, ungodly, godless, ungodliness, godlessness",1,ἀσέβειαν,en,godlessness,N/A,tit,2,12
+1,translationWords,Key Terms,godly,"godly, godliness, ungodly, godless, ungodliness, godlessness",1,εὐσεβῶς,en,godly way,N/A,tit,2,12
+1,translationWords,Key Terms,godthefather,"God the Father, heavenly Father, Father",1,Θεοῦ Πατρὸς,en,God the Father,N/A,tit,1,4
+1,translationWords,Key Terms,good,"good, goodness",1,φιλάγαθον,en,and a friend of what is good,N/A,tit,1,8
+1,translationWords,Key Terms,good,"good, goodness",1,ἀγαθὸν,en,good,N/A,tit,1,16
+1,translationWords,Key Terms,good,"good, goodness",1,ἀγαθάς,en,good,N/A,tit,2,5
+1,translationWords,Key Terms,good,"good, goodness",1,καλῶν,en,of good,N/A,tit,2,7
+1,translationWords,Key Terms,good,"good, goodness",1,ἀγαθήν,en,good,N/A,tit,2,10
+1,translationWords,Key Terms,good,"good, goodness",1,καλῶν,en,good,N/A,tit,2,14
+1,translationWords,Key Terms,good,"good, goodness",1,ἀγαθὸν,en,good,N/A,tit,3,1
+1,translationWords,Key Terms,good,"good, goodness",1,καλῶν,en,in good,N/A,tit,3,8
+1,translationWords,Key Terms,good,"good, goodness",1,καλὰ,en,good,N/A,tit,3,8
+1,translationWords,Key Terms,good,"good, goodness",1,καλῶν,en,in good,N/A,tit,3,14
+1,translationWords,Key Terms,good,"good, goodness",1,"good, goodness",en,N/A,N/A,tit,3,8
+1,translationWords,Key Terms,good,"good, goodness",1,"good, goodness",en,N/A,N/A,tit,3,14
+1,translationWords,Key Terms,grace,"grace, gracious",1,χάρις,en,Grace,N/A,tit,1,4
+1,translationWords,Key Terms,grace,"grace, gracious",1,χάρις,en,grace,N/A,tit,2,11
+1,translationWords,Key Terms,grace,"grace, gracious",1,χάριτι,en,grace,N/A,tit,3,7
+1,translationWords,Key Terms,grace,"grace, gracious",1,χάρις,en,Grace,N/A,tit,3,15
+1,translationWords,Other,heir,heir,1,κληρονόμοι,en,heirs,N/A,tit,3,7
+1,translationWords,Key Terms,holy,"holy, holiness, unholy, sacred",1,ὅσιον,en,godly,N/A,tit,1,8
+1,translationWords,Key Terms,holy,"holy, holiness, unholy, sacred",1,Ἁγίου,en,Holy,N/A,tit,3,5
+1,translationWords,Key Terms,holyspirit,"Holy Spirit, Spirit of God, Spirit of the Lord, Spirit",1,Πνεύματος Ἁγίου,en,by the Holy Spirit,N/A,tit,3,5
+1,translationWords,Key Terms,holyspirit,"Holy Spirit, Spirit of God, Spirit of the Lord, Spirit",1,"Holy Spirit, Spirit of God, Spirit of the Lord, Spirit",en,N/A,N/A,tit,3,6
+1,translationWords,Key Terms,honor,honor,1,σεμνούς,en,dignified,N/A,tit,2,2
+1,translationWords,Key Terms,hope,"hope, hoped",1,ἐλπίδι,en,the certain hope,N/A,tit,1,2
+1,translationWords,Key Terms,hope,"hope, hoped",1,ἐλπίδα,en,hope,N/A,tit,2,13
+1,translationWords,Key Terms,hope,"hope, hoped",1,ἐλπίδα,en,the certain hope,N/A,tit,3,7
+1,translationWords,Other,household,household,1,οἴκους,en,families,N/A,tit,1,11
+1,translationWords,Other,household,household,1,οἰκουργούς,en,housekeepers,N/A,tit,2,5
+1,translationWords,Key Terms,humble,"humble, humbled, humility",1,πραΰτητα,en,humility,N/A,tit,3,2
+1,translationWords,Other,integrity,integrity,1,ἀφθορίαν,en,show integrity,N/A,tit,2,7
+1,translationWords,Key Terms,jesus,"Jesus, Jesus Christ, Christ Jesus",1,Ἰησοῦ Χριστοῦ,en,of Jesus Christ,N/A,tit,1,1
+1,translationWords,Key Terms,jesus,"Jesus, Jesus Christ, Christ Jesus",1,Χριστοῦ Ἰησοῦ,en,Christ Jesus,N/A,tit,1,4
+1,translationWords,Key Terms,jesus,"Jesus, Jesus Christ, Christ Jesus",1,Ἰησοῦ Χριστοῦ,en,Jesus Christ,N/A,tit,2,13
+1,translationWords,Key Terms,jesus,"Jesus, Jesus Christ, Christ Jesus",1,Ἰησοῦ Χριστοῦ,en,Jesus Christ,N/A,tit,3,6
+1,translationWords,Key Terms,jesus,"Jesus, Jesus Christ, Christ Jesus",1,"Jesus, Jesus Christ, Christ Jesus",en,N/A,N/A,tit,3,6
+1,translationWords,Key Terms,jew,"Jew, Jewish",1,Ἰουδαϊκοῖς,en,to Jewish,N/A,tit,1,14
+1,translationWords,Key Terms,justice,"just, justice, unjust, injustice, justify, justification",1,δικαιωθέντες,en,having been justified,N/A,tit,3,7
+1,translationWords,Other,kind,"kind, kindness",1,χρηστότης,en,kindness,N/A,tit,3,4
+1,translationWords,Other,know,"know, knowledge, unknown, foreknew, foreknowledge",1,ἐπίγνωσιν,en,the knowledge,N/A,tit,1,1
+1,translationWords,Other,know,"know, knowledge, unknown, foreknew, foreknowledge",1,εἰδέναι,en,to know,N/A,tit,1,16
+1,translationWords,Other,know,"know, knowledge, unknown, foreknew, foreknowledge",1,εἰδὼς,en,knowing,N/A,tit,3,11
+1,translationWords,Other,law,"law, lawgiver, lawbreaker, lawsuit, lawyer, principle",1,νομικὸν,en,lawyer,N/A,tit,3,13
+1,translationWords,Other,lawful,"lawful, unlawful, not lawful, lawless, lawlessness",1,ἀνομίας,en,lawlessness,N/A,tit,2,14
+1,translationWords,Key Terms,lawofmoses,"law of Moses, God's law, law of Yahweh, the law",1,νομικὰς,en,about the law,N/A,tit,3,9
+1,translationWords,Key Terms,lawofmoses,"law of Moses, God's law, law of Yahweh, the law",1,"law, law of Moses, God's law, law of Yahweh",en,N/A,N/A,tit,3,13
+1,translationWords,Key Terms,life,"life, live, living, alive",1,ζωῆς,en,of … life,N/A,tit,1,2
+1,translationWords,Key Terms,life,"life, live, living, alive",1,ζήσωμεν,en,we might live,N/A,tit,2,12
+1,translationWords,Key Terms,life,"life, live, living, alive",1,διάγοντες,en,We lived,N/A,tit,3,3
+1,translationWords,Key Terms,life,"life, live, living, alive",1,ζωῆς,en,of … life,N/A,tit,3,7
+1,translationWords,Other,like,"like, likeminded, likeness, likewise, alike, unlike, as if",1,ὡς,en,as,N/A,tit,1,5
+1,translationWords,Other,like,"like, likeminded, likeness, likewise, alike, unlike, as if",1,ὡς,en,as,N/A,tit,1,7
+1,translationWords,Other,like,"like, likeminded, likeness, likewise, alike, unlike, as if",1,ὡσαύτως,en,likewise,N/A,tit,2,3
+1,translationWords,Other,like,"like, likeminded, likeness, likewise, alike, unlike, as if",1,ὡσαύτως,en,In the same way,N/A,tit,2,6
+1,translationWords,Key Terms,lord,"lord, Lord, master, sir",1,δεσπόταις,en,masters,N/A,tit,2,9
+1,translationWords,Key Terms,love,"love, loves",1,φιλοῦντας,en,those who love,N/A,tit,3,15
+1,translationWords,Key Terms,love,"love, loves",1,φιλάνδρους,en,to love their own husbands,N/A,tit,2,4
+1,translationWords,Key Terms,love,"love, loves",1,φιλοτέκνους,en,and children,N/A,tit,2,4
+1,translationWords,Key Terms,love,"love, loves",1,φιλανθρωπία,en,love for mankind,N/A,tit,3,4
+1,translationWords,Other,lust,"lust, lustful, passions, desires",1,ἐπιθυμίας,en,passions,N/A,tit,2,12
+1,translationWords,Other,lust,"lust, lustful, passions, desires",1,ἐπιθυμίαις,en,passions,N/A,tit,3,3
+1,translationWords,Other,manager,"manager, steward, stewardship",1,οἰκονόμον,en,household manager,N/A,tit,1,7
+1,translationWords,Other,manager,"manager, steward, stewardship",1,προΐστασθαι,en,to engage themselves,N/A,tit,3,8
+1,translationWords,Other,manager,"manager, steward, stewardship",1,προΐστασθαι,en,to engage themselves,N/A,tit,3,14
+1,translationWords,Key Terms,mercy,"mercy, merciful",1,ἔλεος,en,mercy,N/A,tit,3,5
+1,translationWords,Other,mind,"mind, mindful, remind, reminder, likeminded",1,νοῦς,en,minds,N/A,tit,1,15
+1,translationWords,Other,obey,"obey, obedience, obedient",1,πειθαρχεῖν,en,to obey them,N/A,tit,3,1
+1,translationWords,Other,ordain,"ordain, ordained, ordination, planned long ago, set up, prepared",1,καταστήσῃς,en,ordain,N/A,tit,1,5
+1,translationWords,Other,ordain,"ordain, ordained, ordination, planned long ago, set up, prepared",1,διεταξάμην,en,directed,N/A,tit,1,5
+1,translationWords,Other,overseer,"oversee, overseer",1,ἐπίσκοπον,en,overseer,N/A,tit,1,7
+1,translationWords,Names,paul,"Paul, Saul",1,Παῦλος,en,Paul,N/A,tit,1,1
+1,translationWords,Other,peace,"peace, peaceful, peacemakers",1,εἰρήνη,en,peace,N/A,tit,1,4
+1,translationWords,Other,peace,"peace, peaceful, peacemakers",1,ἀμάχους,en,not … eager to fight,N/A,tit,3,2
+1,translationWords,Other,peoplegroup,"people group, peoples, the people, a people",1,λαὸν,en,a … people,N/A,tit,2,14
+1,translationWords,Other,perseverance,"persevere, perseverance",1,ὑπομονῇ,en,and in perseverance,N/A,tit,2,2
+1,translationWords,Other,perverse,"perverse, perversion, pervert, depraved, malicious, devious, dishonest, distortion",1,ἐξέστραπται,en,has turned from the right way,N/A,tit,3,11
+1,translationWords,Other,possess,"possess, possessed, possession, dispossess",1,περιούσιον,en,special,N/A,tit,2,14
+1,translationWords,Key Terms,power,"power, powerful, powerfully",1,δυνατὸς,en,able,N/A,tit,1,9
+1,translationWords,Other,preach,"preach, preaching, preacher, proclaim, proclamation",1,κηρύγματι,en,the message,N/A,tit,1,3
+1,translationWords,Other,profit,"profit, profitable, unprofitable",1,κέρδους,en,profit,N/A,tit,1,11
+1,translationWords,Other,profit,"profit, profitable, unprofitable",1,ὠφέλιμα,en,useful,N/A,tit,3,8
+1,translationWords,Key Terms,promise,"promise, promised",1,ἐπηγγείλατο,en,promised,N/A,tit,1,2
+1,translationWords,Key Terms,prophet,"prophet, prophecy, prophesy, seer, prophetess",1,προφήτης,en,prophets,N/A,tit,1,12
+1,translationWords,Key Terms,purify,"pure, purify, purification",1,ἁγνάς,en,pure,N/A,tit,2,5
+1,translationWords,Key Terms,purify,"pure, purify, purification",1,καθαροῖς,en,to those who are pure,N/A,tit,1,15
+1,translationWords,Key Terms,purify,"pure, purify, purification",1,καθαρόν,en,is pure,N/A,tit,1,15
+1,translationWords,Other,rebel,"rebel, rebellion, rebellious, rebelliousness",1,ἀνυπότακτα,en,undisciplined,N/A,tit,1,6
+1,translationWords,Other,rebel,"rebel, rebellion, rebellious, rebelliousness",1,ἀνυπότακτοι,en,rebellious,N/A,tit,1,10
+1,translationWords,Other,rebuke,"rebuke, rebuked",1,ἐλέγχειν,en,correct,N/A,tit,1,9
+1,translationWords,Other,rebuke,"rebuke, rebuked",1,ἔλεγχε,en,correct,N/A,tit,1,13
+1,translationWords,Other,rebuke,"rebuke, rebuked",1,ἔλεγχε,en,give correction,N/A,tit,2,15
+1,translationWords,Other,receive,"receive, welcome, taken up, acceptance",1,προσδεχόμενοι,en,while we look forward to receiving,N/A,tit,2,13
+1,translationWords,Key Terms,redeem,"redeem, redemption, redeemer",1,λυτρώσηται,en,to redeem,N/A,tit,2,14
+1,translationWords,Other,reject,"reject, rejected, rejection",1,παραιτοῦ,en,Reject,N/A,tit,3,10
+1,translationWords,Key Terms,reveal,"reveal, revealed, revelation",1,ἐφανέρωσεν,en,he revealed,N/A,tit,1,3
+1,translationWords,Other,reverence,"revere, revered, reverence, reverent",1,ἱεροπρεπεῖς,en,reverent,N/A,tit,2,3
+1,translationWords,Key Terms,righteous,"righteous, righteousness, unrighteous, unrighteousness, upright, uprightness",1,δικαιοσύνῃ,en,of righteousness,N/A,tit,3,5
+1,translationWords,Key Terms,righteous,"righteous, righteousness, unrighteous, unrighteousness, upright, uprightness",1,δικαίως,en,righteous,N/A,tit,2,12
+1,translationWords,Other,ruler,"rule, ruler, ruling, overrules",1,ἀρχαῖς,en,to rulers,N/A,tit,3,1
+1,translationWords,Key Terms,save,"save, saved, safe, salvation",1,ἔσωσεν,en,that he saved,N/A,tit,3,5
+1,translationWords,Key Terms,savior,"Savior, savior",1,Σωτῆρος,en,Savior,N/A,tit,1,3
+1,translationWords,Key Terms,savior,"Savior, savior",1,Σωτῆρος,en,Savior,N/A,tit,1,4
+1,translationWords,Key Terms,savior,"Savior, savior",1,Σωτῆρος,en,about … Savior,N/A,tit,2,10
+1,translationWords,Key Terms,savior,"Savior, savior",1,Σωτῆρος,en,Savior,N/A,tit,2,13
+1,translationWords,Key Terms,savior,"Savior, savior",1,Σωτῆρος,en,of … Savior,N/A,tit,3,4
+1,translationWords,Key Terms,savior,"Savior, savior",1,Σωτῆρος,en,Savior,N/A,tit,3,6
+1,translationWords,Other,selfcontrol,"self-control, self-controlled",1,σώφρονα,en,He must be sensible,N/A,tit,1,8
+1,translationWords,Other,selfcontrol,"self-control, self-controlled",1,σώφρονας,en,sensible,N/A,tit,2,2
+1,translationWords,Other,selfcontrol,"self-control, self-controlled",1,σώφρονας,en,to be sensible,N/A,tit,2,5
+1,translationWords,Other,selfcontrol,"self-control, self-controlled",1,σωφρονεῖν,en,to use good sense,N/A,tit,2,6
+1,translationWords,Other,send,"send, sent, send out",1,πέμψω,en,I send,N/A,tit,3,12
+1,translationWords,Other,send,"send, sent, send out",1,πρόπεμψον,en,send on their way,N/A,tit,3,13
+1,translationWords,Other,servant,"enslave, enslaved, servant, slave, slavery, maidservants, serve, service, eyeservice",1,δοῦλος,en,a servant,N/A,tit,1,1
+1,translationWords,Other,servant,"enslave, enslaved, servant, slave, slavery, maidservants, serve, service, eyeservice",1,δούλους,en,slaves,N/A,tit,2,9
+1,translationWords,Other,shame,"shame, shamed, shameful, shameless, ashamed, unashamed",1,αἰσχροῦ,en,shameful,N/A,tit,1,11
+1,translationWords,Other,shame,"shame, shamed, shameful, shameless, ashamed, unashamed",1,ἐντραπῇ,en,may be ashamed,N/A,tit,2,8
+1,translationWords,Key Terms,sin,"sin, sinful, sinner, sinning",1,ἁμαρτάνει,en,is sinning,N/A,tit,3,11
+1,translationWords,Other,slander,"slander, slanders, slanderers, slanderous",1,διαβόλους,en,slanderers,N/A,tit,2,3
+1,translationWords,Key Terms,son,son,1,τέκνῳ,en,a … son,N/A,tit,1,4
+1,translationWords,Other,strife,"strife, disputes, quarrel, arguing, conflict",1,ἔρεις,en,strife,N/A,tit,3,9
+1,translationWords,Other,strife,"strife, disputes, quarrel, arguing, conflict",1,μάχας,en,conflict,N/A,tit,3,9
+1,translationWords,Other,subject,"subject, be subject to, subjection",1,ὑποτασσομένας,en,and obedient,N/A,tit,2,5
+1,translationWords,Other,subject,"subject, be subject to, subjection",1,ὑποτάσσεσθαι,en,Teach … to obey,N/A,tit,2,9
+1,translationWords,Other,subject,"subject, be subject to, subjection",1,ὑποτάσσεσθαι,en,to submit,N/A,tit,3,1
+1,translationWords,Other,teach,"teach, teaching, untaught",1,διδαχὴν,en,that was taught,N/A,tit,1,9
+1,translationWords,Other,teach,"teach, teaching, untaught",1,διδάσκοντες,en,by teaching,N/A,tit,1,11
+1,translationWords,Key Terms,testimony,"testimony, testify, witness, eyewitness",1,μαρτυρία,en,statement,N/A,tit,1,13
+1,translationWords,Other,time,"time, untimely, date",1,χρόνων,en,of time,N/A,tit,1,2
+1,translationWords,Other,time,"time, untimely, date",1,καιροῖς,en,at the … time,N/A,tit,1,3
+1,translationWords,Names,titus,Titus,1,Τίτῳ,en,To Titus,N/A,tit,1,4
+1,translationWords,Key Terms,true,"true, truth",1,ἀληθείας,en,of the truth,N/A,tit,1,1
+1,translationWords,Key Terms,true,"true, truth",1,γνησίῳ,en,true,N/A,tit,1,4
+1,translationWords,Key Terms,true,"true, truth",1,ἀληθής,en,true,N/A,tit,1,13
+1,translationWords,Key Terms,true,"true, truth",1,ἀλήθειαν,en,truth,N/A,tit,1,14
+1,translationWords,Key Terms,trust,"trust, trusted, trustworthy, trustworthiness",1,ἐπιστεύθην,en,he trusted … to deliver,N/A,tit,1,3
+1,translationWords,Key Terms,trust,"trust, trusted, trustworthy, trustworthiness",1,"trust, trusts, trusted, trustworthy, trustworthiness",en,N/A,N/A,tit,1,9
+1,translationWords,Key Terms,trust,"trust, trusted, trustworthy, trustworthiness",1,"trust, trusts, trusted, trustworthy, trustworthiness",en,N/A,N/A,tit,3,8
+1,translationWords,Other,turn,"turn, turn away, turn back, return",1,ἀποστρεφομένων,en,who turn away from,N/A,tit,1,14
+1,translationWords,Names,tychicus,Tychicus,1,Τυχικόν,en,Tychicus,N/A,tit,3,12
+1,translationWords,Other,vain,"vain, vanity, futile, empty, useless, meaningless",1,ματαιολόγοι,en,empty talkers,N/A,tit,1,10
+1,translationWords,Other,vain,"vain, vanity, futile, empty, useless, meaningless",1,μάταιοι,en,worthless,N/A,tit,3,9
+1,translationWords,Other,wine,"wine, wineskin, new wine",1,πάροινον,en,addicted to wine,N/A,tit,1,7
+1,translationWords,Other,wine,"wine, wineskin, new wine",1,οἴνῳ,en,to … wine,N/A,tit,2,3
+1,translationWords,Other,womb,womb,1,γαστέρες,en,gluttons,N/A,tit,1,12
+1,translationWords,Other,word,"word, speech, decree",1,λόγου,en,message,N/A,tit,1,9
+1,translationWords,Other,word,"word, speech, decree",1,λόγον,en,and a … message,N/A,tit,2,8
+1,translationWords,Other,word,"word, speech, decree",1,λόγος,en,message,N/A,tit,3,8
+1,translationWords,Key Terms,wordofgod,"word of God, word of Yahweh, word of the Lord, word of truth, scripture",1,λόγον,en,word,N/A,tit,1,3
+1,translationWords,Key Terms,wordofgod,"word of God, word of Yahweh, word of the Lord, word of truth, scripture",1,λόγος τοῦ Θεοῦ,en,God’s word,N/A,tit,2,5
+1,translationWords,Key Terms,works,"works, deeds, acts",1,ἔργων,en,works,N/A,tit,3,14
+1,translationWords,Key Terms,works,"works, deeds, acts",1,ἔργον,en,work,N/A,tit,1,16
+1,translationWords,Key Terms,works,"works, deeds, acts",1,ἔργων,en,works,N/A,tit,2,7
+1,translationWords,Key Terms,works,"works, deeds, acts",1,ἔργων,en,works,N/A,tit,2,14
+1,translationWords,Key Terms,works,"works, deeds, acts",1,ἔργον,en,work,N/A,tit,3,1
+1,translationWords,Key Terms,works,"works, deeds, acts",1,ἔργων,en,works,N/A,tit,3,5
+1,translationWords,Key Terms,works,"works, deeds, acts",1,ἔργων,en,works,N/A,tit,3,8
+1,translationWords,Key Terms,world,"world, worldly",1,κοσμικὰς,en,worldly,N/A,tit,2,12
+1,translationWords,Key Terms,zealous,"zeal, zealous",1,ζηλωτὴν,en,who are eager to do,N/A,tit,2,14
