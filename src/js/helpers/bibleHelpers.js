@@ -12,7 +12,7 @@ export function convertToFullBookName(bookAbbr) {
   if (!bookAbbr) {
     return;
   }
-  return Bible.ALL_BOOKS[bookAbbr.toString().toLowerCase()];
+  return Bible.ALL_BIBLE_BOOKS[bookAbbr.toString().toLowerCase()];
 }
 
 /**

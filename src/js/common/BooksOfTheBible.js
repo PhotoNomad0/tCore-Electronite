@@ -148,7 +148,7 @@ export const BIBLES_ABBRV_INDEX = {
   'rev': '67',
 };
 
-export const ALL_BOOKS = {
+export const ALL_BIBLE_BOOKS = {
   ...BIBLE_BOOKS.oldTestament,
   ...BIBLE_BOOKS.newTestament,
 };
