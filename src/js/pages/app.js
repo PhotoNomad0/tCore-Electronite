@@ -55,7 +55,7 @@ class Main extends Component {
       loadTools,
     } = this.props;
 
-    loadTools(path.join(__dirname, '../../../tC_apps'));
+    loadTools(path.join('./tC_apps'));
 
     if (localStorage.getItem('version') !== APP_VERSION) {
       localStorage.setItem('version', APP_VERSION);

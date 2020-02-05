@@ -15,13 +15,18 @@ console.log('Electron', process.versions.electron);
 console.log('Chrome', process.versions.chrome);
 console.log('Node', process.versions.node);
 
-// const currentPath = path.join('.');
-// const files = fs.readdirSync(currentPath);
-// console.log('files: ' + JSON.stringify(files));
-const srcPath = path.join('./src');
-const files2 = fs.readdirSync(srcPath);
-console.log(srcPath + ': ' + JSON.stringify(files2));
-
+let currentPath = path.join('.');
+let files = fs.readdirSync(currentPath);
+console.log(currentPath + ': ' + JSON.stringify(files));
+currentPath = path.join('./src');
+files = fs.readdirSync(currentPath);
+console.log(currentPath + ': ' + JSON.stringify(files));
+currentPath = path.join('./tC_apps');
+files = fs.readdirSync(currentPath);
+console.log(currentPath + ': ' + JSON.stringify(files));
+currentPath = path.join('./tC_apps/wordAlignment');
+files = fs.readdirSync(currentPath);
+console.log(currentPath + ': ' + JSON.stringify(files));
 
 ReactDOM.render(<App/>, document.getElementById('root'));
 

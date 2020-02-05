@@ -628,8 +628,7 @@ export function getBibleManifest(bibleVersionPath, bibleID) {
  * @param {string} bibleVersion - optional release version, if null then get latest
  */
 export function getBibleIndex(languageId, bibleId, bibleVersion) {
-  const STATIC_RESOURCES_BIBLES_PATH = path.join(__dirname,
-    '../../../tcResources', languageId, 'bibles');
+  const STATIC_RESOURCES_BIBLES_PATH = path.join('./tcResources', languageId, 'bibles');
   const fileName = 'index.json';
   let bibleIndexPath;
 

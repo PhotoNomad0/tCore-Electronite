@@ -34,6 +34,7 @@ export const loadToolsInDir = async toolsDir => {
 
     if (stat.isDirectory()) {
       try {
+        console.log(`Loading tool "${f}`);
         promises.push(loadTool(toolPath));
       } catch (e) {
         console.error(`Failed to load tool "${f}"`, e);
@@ -41,8 +42,11 @@ export const loadToolsInDir = async toolsDir => {
     }
   }
 
-  tools = await Promise.all(promises);
-
+  try {
+    tools = await Promise.all(promises);
+  } catch (e) {
+    console.error(`Failed to load tools`, e);
+  }
   return tools;
 };
 
@@ -73,7 +77,12 @@ export const loadTool = async toolDir => {
   let tool = null;
 
   try {
-    tool = require(path.join(toolDir, meta.main)).default;
+    console.log('meta=' + JSON.stringify(meta));
+    //TODO: correct require path
+    let toolPath = path.join(toolDir, meta.main);
+    console.log('toolPath=' + toolPath);
+    const index = require(toolPath);
+    tool = index.default;
   } catch (e) {
     throw new Error(`Error loading tool "${basename}"`, e);
   }
