@@ -186,12 +186,12 @@ const mapDispatchToProps = (dispatch) => ({
     openOnlyProjectDetailsScreen: (projectSaveLocation) => {
       dispatch(ProjectInformationCheckActions.openOnlyProjectDetailsScreen(projectSaveLocation));
     },
-    openLocaleScreen: () => {
-      dispatch(LocaleActions.openLocaleScreen());
-    },
-    closeLocaleScreen: () => {
-      dispatch(LocaleActions.closeLocaleScreen());
-    },
+    // openLocaleScreen: () => {
+    //   dispatch(LocaleActions.openLocaleScreen());
+    // },
+    // closeLocaleScreen: () => {
+    //   dispatch(LocaleActions.closeLocaleScreen());
+    // },
     getProjectProgressForTools: (toolName) => {
       dispatch(ProjectDetailsActions.getProjectProgressForTools(toolName));
     },

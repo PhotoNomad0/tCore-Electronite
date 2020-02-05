@@ -705,8 +705,7 @@ export function getLanguageIdsFromResourceFolder(bookId) {
       languageIds = languageIds.filter(languageId => languageId !== Bible.OT_ORIG_LANG);
     }
     languageIds = languageIds.filter(languageID => {
-      let valid = (fs.lstatSync(path.join(USER_RESOURCES_PATH, languageID)).
-        isDirectory());
+      let valid = (fs.lstatSync(path.join(USER_RESOURCES_PATH, languageID)).isDirectory());
       return valid;
     });
     return languageIds;
@@ -777,8 +776,8 @@ export function getAvailableScripturePaneSelections(resourceList) {
         const biblesPath = path.join(USER_RESOURCES_PATH, languageId, 'bibles');
 
         if (fs.existsSync(biblesPath)) {
-          const biblesFolders = fs.readdirSync(biblesPath).
-            filter(folder => folder !== '.DS_Store');
+          const biblesFolders = fs.readdirSync(biblesPath)
+            .filter(folder => folder !== '.DS_Store');
 
           biblesFolders.forEach(bibleId => {
             const bibleIdPath = path.join(biblesPath, bibleId);
