@@ -1,7 +1,7 @@
 /* eslint-env jest */
 import React from 'react';
 import renderer from 'react-test-renderer';
-import IconIndicators from '../../IconIndicators/index';
+import IconIndicators from '../index';
 
 const mock_translate = (text) => (text);
 

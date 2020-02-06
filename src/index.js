@@ -21,12 +21,7 @@ console.log(currentPath + ': ' + JSON.stringify(files));
 currentPath = path.join('./src');
 files = fs.readdirSync(currentPath);
 console.log(currentPath + ': ' + JSON.stringify(files));
-currentPath = path.join('./tC_apps');
-files = fs.readdirSync(currentPath);
-console.log(currentPath + ': ' + JSON.stringify(files));
-currentPath = path.join('./tC_apps/wordAlignment');
-files = fs.readdirSync(currentPath);
-console.log(currentPath + ': ' + JSON.stringify(files));
+
 
 ReactDOM.render(<App/>, document.getElementById('root'));
 

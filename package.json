@@ -20,7 +20,7 @@
     "find:extra-locale": "node scripts/locale/find_extras.js src/locale/English-en_US.json src/js",
     "find:missing-locale": "node scripts/locale/find_missing.js src/locale/English-en_US.json src/js",
     "locale-key-comparison": "node ./scripts/locale_key_comparison.js",
-    "npm-clean-up": "rm -rf node_modules/ && rm -rf tC_apps/*/node_modules && rm package-lock.json && npm i",
+    "npm-clean-up": "rm -rf node_modules/ && rm -rf src/tC_apps/*/node_modules && rm package-lock.json && npm i",
     "release-content-update": "node scripts/releaseContentUpdate",
     "load-apps": "git submodule update --init --recursive",
     "overwrite-resources": "rm -rf tcResources/en/bibles tcResources/en/translationHelps tcResources/el-x-koine tcResources/hi && npm run update-resources",

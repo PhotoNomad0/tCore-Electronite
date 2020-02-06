@@ -1,19 +1,19 @@
-import * as consts from '../actions/actionTypes';
-import * as GroupMenuActions from '../actions/GroupMenuActions';
+import * as consts from './actionTypes';
+import * as GroupMenuActions from './GroupMenuActions';
 import {
   generateTimestamp,
   writeCheckData,
 } from '../../utils/CheckDataHelper';
 
 /**
- * set new comment in reducer
- * @param {String} text
+ * set bookmark state in reducer
+ * @param {Boolean} enabled
  * @param {String} username
  * @param {Object} contextId
  * @param {String} timestamp
  * @return {function(...[*]=)}
  */
-export function setComment(text, username, contextId, timestamp) {
+export function setBookmark(enabled, username, contextId, timestamp) {
   return ((dispatch) => {
     const {
       bookId, chapter, verse,
@@ -21,43 +21,44 @@ export function setComment(text, username, contextId, timestamp) {
     timestamp = timestamp || generateTimestamp();
 
     dispatch({
-      type: consts.ADD_COMMENT,
+      type: consts.ADD_BOOKMARK,
       userName: username,
       activeBook: bookId,
       activeChapter: chapter,
       activeVerse: verse,
       modifiedTimestamp: timestamp,
       contextId,
-      text,
+      enabled,
     });
   });
 }
 
 /**
- * Add a comment for the current check - also updates group menu and persists change.
+ * Set Bookmark state for the current check - also updates group menu and persists change.
  * @param {Object} api - tool api for system calls
- * @param {String} text - comment text.
+ * @param {Boolean} enabled
  * @param {String} username
  * @param {Object} contextId
  * @return {Object} New state for comment reducer.
  */
-export const addComment = (api, text, username, contextId) => ((dispatch) => {
+export const addBookmark = (api, enabled, username, contextId) => ((dispatch) => {
   const {
     reference: {
       bookId, chapter, verse,
     }
   } = contextId;
 
+  enabled = !!enabled;
   const timestamp = generateTimestamp();
-  dispatch(setComment(text, username, contextId, timestamp));
-  dispatch(GroupMenuActions.setGroupMenuItemComment(chapter, verse, text));
+  dispatch(setBookmark(enabled, username, contextId, timestamp));
+  dispatch(GroupMenuActions.setGroupMenuItemBookmarked(chapter, verse, enabled));
   const newData = {
-    text,
+    enabled: enabled,
     userName: username,
     activeBook: bookId,
     activeChapter: chapter,
     activeVerse: verse,
     contextId,
   };
-  writeCheckData(api, 'comments', chapter, verse, newData, timestamp);
+  writeCheckData(api, 'reminders', chapter, verse, newData, timestamp);
 });
