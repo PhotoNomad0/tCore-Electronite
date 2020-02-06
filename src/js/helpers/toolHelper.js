@@ -1,6 +1,6 @@
 import path from 'path-extra';
 import fs from 'fs-extra';
-import {getToolCategories, getToolsByKey, getTranslate,} from '../selectors';
+import { getToolCategories, getToolsByKey, getTranslate } from '../selectors';
 import * as alerts from '../reducers/alerts';
 import {
   ALERT_ALIGNMENTS_AND_SELECTIONS_RESET_MSG,
@@ -8,8 +8,6 @@ import {
   ALERT_SELECTIONS_INVALIDATED_ID,
   WORD_ALIGNMENT,
 } from '../common/constants';
-
-const WA_TOOL = require('../../tC_apps/wordAlignment/index');
 
 /**
  * Loads all of the tools found in a directory
@@ -26,28 +24,19 @@ export const loadToolsInDir = async toolsDir => {
     return [];
   }
 
-  const toolHandles = {
-    wordAlignment: WA_TOOL
-  };
-
   const files = await fs.readdir(toolsDir);
 
   for (const f of files) {
     const toolPath = path.join(toolsDir, f);
-    const toolHandle = toolHandles[f];
-    if (toolHandle) {
-      const stat = fs.statSync(toolPath);
+    const stat = fs.statSync(toolPath);
 
-      if (stat.isDirectory()) {
-        try {
-          console.log(`Loading tool "${f}`);
-          promises.push(loadTool(toolsDir, f, toolHandle));
-        } catch (e) {
-          console.error(`Failed to load tool "${f}"`, e);
-        }
+    if (stat.isDirectory()) {
+      try {
+        console.log(`Loading tool "${f}`);
+        promises.push(loadTool(toolPath));
+      } catch (e) {
+        console.error(`Failed to load tool "${f}"`, e);
       }
-    } else {
-      console.error(`Failed to pre-load tool "${f}", SKIPPING`);
     }
   }
 
@@ -62,13 +51,11 @@ export const loadToolsInDir = async toolsDir => {
 /**
  * Loads a tool from a directory.
  * This validates and loads the tool.
- * @param {string} toolsDir - path to the tools directory
- * @param {string} toolName
+ * @param {string} toolDir - path to the tool
  * @return the tool object.
  */
-export const loadTool = async (toolsDir, toolName, toolHandle) => {
-  const toolDir = path.join(toolsDir, toolName);
-  const basename = path.basename(toolDir);
+export const loadTool = async (toolDir) => {
+  const toolName = path.basename(toolDir);
   const packagePath = path.join(toolDir, 'package.json');
   const badgePath = path.join(toolDir, 'badge.png');
 
@@ -79,32 +66,49 @@ export const loadTool = async (toolsDir, toolName, toolHandle) => {
     const exists = fs.existsSync(p);
 
     if (!exists) {
-      throw new Error(`Error loading tool "${basename}". Missing ${p}`);
+      throw new Error(`Error loading tool "${toolName}". Missing ${p}`);
     }
   }
 
   // load the actual tool
   const meta = await fs.readJson(packagePath);
-  console.log('meta=' + JSON.stringify(meta));
-  let tool = toolHandle.default;
+  let tool = null;
 
-  // try {
-  //   //TODO: correct require path
-  //   const toolRequirePath = path.join('./src', toolsDir, toolName, meta.main);
-  //   console.log('toolPath=' + toolRequirePath);
-  //   const index = require(toolRequirePath);
-  //   // TODO: failed paths:
-  //   // ../../../tC_apps/wordAlignment/index.js
-  //   // ../../tC_apps/wordAlignment/index.js
-  //   // ../tC_apps/wordAlignment/index.js
-  //   // tC_apps/wordAlignment/index.js
-  //   // /tC_apps/wordAlignment/index.js
-  //   tool = index.default;
-  // } catch (e) {
-  //   const message = `Error loading tool "${basename}"`;
-  //   console.error(message, e);
-  //   throw new Error(message, e);
-  // }
+  try {
+    console.log('meta=' + JSON.stringify(meta));
+    //TODO: correct require path
+    // const toolRequirePath = path.join('../../tC_apps', toolName, meta.main);
+    // // console.log('toolPath=' + toolRequirePath);
+    // const module = require(toolRequirePath);
+    let module = null;
+    switch (toolName) { // tricky, with webpack the paths to require must be defined at compile time, not generated at runtime
+      case 'wordAlignment':
+        module = require('../../tC_apps/wordAlignment/index');
+        break;
+
+      case 'translationWords':
+        module = require('../../tC_apps/translationWords/index');
+        break;
+
+      case 'translationNotes':
+        module = require('../../tC_apps/translationNotes/index');
+        break;
+
+      default:
+        throw new Error(`loading unsupported for tool "${toolName}"`);
+    }
+    // TODO: failed paths:
+    // ./src/tC_apps/wordAlignment/index.js
+    // /src/tC_apps/wordAlignment/index.js
+    // /tC_apps/wordAlignment/index.js
+    // ../../tC_apps/wordAlignment/index.js
+    // ../../../tC_apps/wordAlignment/index.js
+    tool = module.default;
+  } catch (e) {
+    const message = `Error loading tool "${toolName}"`;
+    console.error(message, e);
+    throw new Error(message);
+  }
 
   // patch in some extra props
   tool.badge = badgePath;
