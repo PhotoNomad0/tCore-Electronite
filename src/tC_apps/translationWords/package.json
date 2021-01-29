@@ -5,7 +5,7 @@
   "title": "translationWords",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ./index.js && jest"
+    "test": "eslint index.js && jest"
   },
   "jest": {
     "collectCoverageFrom": [

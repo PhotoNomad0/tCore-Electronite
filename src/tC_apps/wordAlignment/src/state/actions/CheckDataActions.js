@@ -1,4 +1,4 @@
-import * as consts from '../actions/actionTypes';
+import * as consts from './actionTypes';
 import {
   getVerseCommentRecord,
   getVerseBookmarkedRecord,

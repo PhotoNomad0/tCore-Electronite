@@ -34,25 +34,31 @@ export const loadToolsInDir = async toolsDir => {
 
     if (stat.isDirectory()) {
       try {
-        promises.push(loadTool(toolPath));
+        console.log(`Loading tool "${f}`);
+        promises.push(loadTool(toolsDir, f));
       } catch (e) {
         console.error(`Failed to load tool "${f}"`, e);
       }
     }
   }
 
-  tools = await Promise.all(promises);
-
+  try {
+    tools = await Promise.all(promises);
+  } catch (e) {
+    console.error(`Failed to load tools`, e);
+  }
   return tools;
 };
 
 /**
  * Loads a tool from a directory.
  * This validates and loads the tool.
- * @param {string} toolDir - path to the tool directory
+ * @param {string} toolsDir - path to the tools directory
+ * @param {string} toolName
  * @return the tool object.
  */
-export const loadTool = async toolDir => {
+export const loadTool = async (toolsDir, toolName) => {
+  const toolDir = path.join(toolsDir, toolName);
   const basename = path.basename(toolDir);
   const packagePath = path.join(toolDir, 'package.json');
   const badgePath = path.join(toolDir, 'badge.png');
@@ -73,9 +79,23 @@ export const loadTool = async toolDir => {
   let tool = null;
 
   try {
-    tool = require(path.join(toolDir, meta.main)).default;
+    console.log('meta=' + JSON.stringify(meta));
+    //TODO: correct require path
+    const toolRequirePath = path.join('./tC_apps', toolName, meta.main);
+    console.log('toolPath=' + toolRequirePath);
+    const index = require(toolRequirePath);
+    // TODO: failed paths:
+    // ./src/tC_apps/wordAlignment/index.js
+    // /src/tC_apps/wordAlignment/index.js
+    // /tC_apps/wordAlignment/index.js
+    // ../tC_apps/wordAlignment/index.js
+    // ../../tC_apps/wordAlignment/index.js
+    // ../../../tC_apps/wordAlignment/index.js
+    tool = index.default;
   } catch (e) {
-    throw new Error(`Error loading tool "${basename}"`, e);
+    const message = `Error loading tool "${basename}"`;
+    console.error(message, e);
+    throw new Error(message, e);
   }
 
   // patch in some extra props

@@ -44,7 +44,7 @@ import * as GroupMenu from "../state/reducers/GroupMenu";
 import MAPControls from './MAPControls';
 import MissingBibleError from './MissingBibleError';
 import AlignmentGrid from './AlignmentGrid';
-import WordList from './WordList/index';
+import WordList from './WordList';
 import IconIndicators from "./IconIndicators";
 import CommentsDialog from "./CommentsDialog";
 
@@ -869,7 +869,7 @@ Container.propTypes = {
   resourcesReducer: PropTypes.object.isRequired,
   contextIdReducer: PropTypes.object.isRequired,
   settingsReducer: PropTypes.shape({
-    toolsSettings: PropTypes.object.required
+    toolsSettings: PropTypes.object.isRequired
   }).isRequired,
   actions: PropTypes.object.isRequired
 };
